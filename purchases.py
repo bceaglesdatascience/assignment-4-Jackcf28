@@ -1,7 +1,7 @@
 def add_tax(oldcosts,tax):
     for index,cost in enumerate(oldcosts):
         cost=cost*tax+cost
-        cost=round(cost,1)
+        #cost=round(cost,1)
         oldcosts[index]=cost
     return oldcosts
 
